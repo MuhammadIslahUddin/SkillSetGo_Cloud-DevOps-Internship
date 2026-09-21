@@ -1,0 +1,66 @@
+Task 1.4 – Architecture Documentation
+Student: Muhammad Islah Uddin
+Date: September 17, 2026
+Internship: Skill Set Go – Cloud & DevOps Track
+
+====================================
+1. Project Overview
+====================================
+I deployed a simple static website to Microsoft Azure using Azure Storage Account with Static Website hosting enabled.
+
+====================================
+2. Architecture Diagram (Text Version)
+====================================
+
+Internet Users
+      |
+      | (HTTPS Request)
+      ↓
+Azure Storage Account (islahdevopsweb26)
+      |
+      | Static Website Hosting enabled
+      ↓
+$web Container
+      |
+      └── index.html  ← My website file
+
+
+Explanation:
+- Users access the website through a public URL.
+- Azure Storage serves the index.html file directly.
+- No virtual machine or server is needed (this is serverless static hosting).
+
+====================================
+3. Components Used
+====================================
+- Resource Group          : rg-week1-devops
+- Storage Account         : islahdevopsweb26
+- Static Website Feature  : Enabled
+- Container               : $web
+- File Deployed           : index.html
+- Live URL                : https://islahdevopsweb26.z1.web.core.windows.net/
+
+====================================
+4. Deployment Process Summary
+====================================
+1. Created HTML file locally on Ubuntu.
+2. Created Resource Group in Azure.
+3. Created Storage Account.
+4. Enabled Static website hosting.
+5. Uploaded index.html to the $web container.
+6. Website became publicly accessible via the Primary endpoint.
+
+====================================
+5. Benefits of This Architecture
+====================================
+- Very low cost (almost free on free tier)
+- Highly available and scalable
+- No server management required
+- Fast content delivery
+- Simple to maintain
+
+====================================
+6. Conclusion
+====================================
+This is a basic but production-style way to host static websites on Azure. 
+It demonstrates understanding of cloud storage, static hosting, and basic cloud architecture.

@@ -1,0 +1,46 @@
+Task 1.1 – Linux Administration Exercises
+Student: Muhammad Islah Uddin
+Date: September 16, 2026
+
+====================================
+1. Basic Commands Practiced
+====================================
+- pwd          → Shows current directory
+- whoami       → Shows current username
+- ls, ls -l, ls -la → List files (normal, detailed, including hidden)
+- cd           → Change directory
+- mkdir        → Create folder
+- touch        → Create empty file
+- echo         → Write text into a file
+- cat          → Read file content
+- cp           → Copy file
+- mv           → Rename or move file
+- rm           → Delete file
+
+====================================
+2. File Permissions
+====================================
+- Understood r (read), w (write), x (execute)
+- Used chmod to change permissions
+- Examples practiced:
+  chmod u+x file
+  chmod g-w file
+  chmod 777 file
+  chmod 644 file (safe default)
+
+====================================
+3. Process Management
+====================================
+- ps aux       → List all running processes
+- top          → Live process monitor
+- free -h      → Check memory (RAM)
+- df -h        → Check disk space
+
+====================================
+4. What I Learned
+====================================
+I can now navigate the Linux file system, create and manage files/folders, 
+understand and change file permissions, and check running processes, 
+memory, and disk usage.
+
+This is the foundation needed for Cloud and DevOps work.

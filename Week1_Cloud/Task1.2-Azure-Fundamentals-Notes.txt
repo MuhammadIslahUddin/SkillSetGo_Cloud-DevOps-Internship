@@ -1,0 +1,48 @@
+Task 1.2 – Cloud & Azure Fundamentals
+Student: Muhammad Islah Uddin
+Date: September 16, 2026
+
+====================================
+1. What is Cloud Computing?
+====================================
+Cloud computing means using computers, storage, and networks that are provided by companies like Microsoft (Azure) or Amazon (AWS) over the internet, instead of buying your own physical servers.
+
+====================================
+2. Three Main Building Blocks
+====================================
+
+A. Compute
+- This is the "brain" or the computer itself.
+- In Azure: Virtual Machines (VMs), App Services, Azure Functions
+- Example: Running a website or an application
+
+B. Storage
+- This is where you keep files, pictures, databases, and backups.
+- In Azure: Storage Accounts, Blob Storage, Disk Storage
+- Example: Storing images or website files
+
+C. Networking
+- This connects everything together and to the internet.
+- In Azure: Virtual Network (VNet), Public IP Address, Load Balancer, Network Security Group
+- Example: Allowing people to visit your website from the internet
+
+====================================
+3. What I Did in Azure Portal
+====================================
+- Logged into https://portal.azure.com using my free-tier account
+- Searched and opened:
+  - Virtual machines (Compute)
+  - Storage accounts (Storage)
+  - Virtual networks (Networking)
+- Observed the Azure Portal interface
+
+====================================
+4. Free Tier
+====================================
+I am using the Azure Free Tier account, which gives limited free resources for 12 months so I can practice without paying.
+
+====================================
+5. Key Learning
+====================================
+I now understand the three core pillars of cloud computing: Compute, Storage, and Networking, and I know where to find them in the Azure Portal.
+

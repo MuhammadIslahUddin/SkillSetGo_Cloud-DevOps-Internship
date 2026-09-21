@@ -1,0 +1,37 @@
+Task 1.3 – Basic Cloud Deployment
+Student: Muhammad Islah Uddin
+Date: September 17, 2026
+
+====================================
+1. What I Deployed
+====================================
+I deployed a simple static website (HTML page) to Azure using Azure Storage Account Static Website hosting.
+
+====================================
+2. Steps I Followed
+====================================
+1. Created a simple index.html file on my Ubuntu machine.
+2. Created a Resource Group: rg-week1-devops
+3. Created a Storage Account: islahdevopsweb26
+4. Enabled Static website hosting on the Storage Account.
+5. Set index document name as index.html
+6. Uploaded the index.html file to the $web container.
+7. Accessed the website using the Primary endpoint URL.
+
+====================================
+3. Live Website URL
+====================================
+https://islahdevopsweb26.z1.web.core.windows.net/
+
+====================================
+4. Technologies Used
+====================================
+- Azure Storage Account
+- Azure Static Website hosting
+- HTML
+
+====================================
+5. Result
+====================================
+The website is live and accessible publicly on the internet using the Primary endpoint URL.
+
